@@ -47,7 +47,7 @@ const  AccountList = ({accounts, onDisconnect}: AccountListProps) => {
                     {account.status === 'connected' ? (
                         <>
                             <CheckCircleIcon className='size-4 text-emerald-500'/>
-                            <span className='text=xs text-emerald-600'>Connected</span>
+                            <span className='text-xs text-emerald-600'>Connected</span>
                         </>
                     ): (
                         <>
