@@ -7,7 +7,7 @@ import { useLocation } from 'react-router-dom';
 const pageTitles : Record<string, string> = {
     "/dashboard" : "Dashboard",
     "/accounts"  : "Social Accounts",
-    "/scheduler"  : "Past Scheduler",
+    "/schedule"  : "Post Scheduler",
     "/ai-composer"  : "AI Composer",
 }
 

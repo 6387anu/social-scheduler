@@ -27,7 +27,7 @@ const Dashboard = () => {
 
   const statCards = [
     {
-      label: "Secheduled Posts",
+      label: "Scheduled Posts",
       value: stats.scheduled,
       icon: ClockIcon,
       trend: "+2 today",
