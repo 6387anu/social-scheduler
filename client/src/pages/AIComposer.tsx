@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { dummyGenerationData, PLATFORMS } from '../assets/assets';
 import { ArrowRightIcon, CalendarIcon, ClockIcon, HistoryIcon, Loader2Icon, TimerIcon, Wand2Icon, XIcon } from 'lucide-react';
 
@@ -186,7 +186,7 @@ const AIComposer = () => {
                   </div>
                 </div>
               </div>
-              <button onClick={handleSchedule} className='w-full flex flex items-center justify-center gap-2 py-3 rounded-md bg-slate-200 text-slate-700 hover:bg-red-500 hover:text-white transition'>
+              <button onClick={handleSchedule} className='w-full flex items-center justify-center gap-2 py-3 rounded-md bg-slate-200 text-slate-700 hover:bg-red-500 hover:text-white transition'>
                 {scheduling ? <Loader2Icon className='size-4 animate-spin'/> : <TimerIcon className='size-4'/>}
                 Schedule Post
               </button>
